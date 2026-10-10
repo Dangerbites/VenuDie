@@ -1,7 +1,7 @@
 @tool
-@icon("res://addons/dieback/dieback_icon.svg")
-class_name BattleBackground2D
-extends Sprite2D
+@icon("res://addons/venudie/dieback_icon.svg")
+class_name BattleBackground3D
+extends Sprite3D
 
 @export var data: DiebackData:
 	set(v):
@@ -21,7 +21,10 @@ var _bg: BattleBackground
 
 
 func _ready() -> void:
-	texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
+	texture_filter = BaseMaterial3D.TEXTURE_FILTER_NEAREST
+	shaded = false
+	transparent = true
+	double_sided = true
 	_vp = SubViewport.new()
 	_vp.size = Vector2i(320, 180)
 	_vp.transparent_bg = true

@@ -1,5 +1,5 @@
 @tool
-@icon("res://addons/dieback/dieback_icon.svg")
+@icon("res://addons/venudie/dieback_icon.svg")
 class_name BattleBackground
 extends Control
 
@@ -20,7 +20,7 @@ var _drawn_size := Vector2.ZERO
 
 func _ready() -> void:
 	clip_contents = true
-	_shader_src = (load("res://addons/dieback/dieback.gdshader") as Shader).code
+	_shader_src = (load("res://addons/venudie/dieback.gdshader") as Shader).code
 
 
 func _draw() -> void:

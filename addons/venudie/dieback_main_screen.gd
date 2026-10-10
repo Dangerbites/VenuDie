@@ -1,7 +1,7 @@
 @tool
 extends VBoxContainer
 
-const LOGO_PATH := "res://addons/dieback/dieback_icon.svg"
+const LOGO_PATH := "res://addons/venudie/dieback_icon.svg"
 const LOGO_SCALE := 9.0
 const URL_AUTHOR := "https://nicenibbles.com/anteger-dev"
 const URL_ORIGINAL := "https://github.com/Okanoa/Dieback"

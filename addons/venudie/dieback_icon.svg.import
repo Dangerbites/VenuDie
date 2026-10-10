@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wmuh6hrn7i5i"
-path="res://.godot/imported/dieback_icon.svg-2ccd1d38e9ee0c237b98c8aad14bcafc.ctex"
+path="res://.godot/imported/dieback_icon.svg-018f22da7347b6bdc3e23b7db0927dbf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dieback/dieback_icon.svg"
-dest_files=["res://.godot/imported/dieback_icon.svg-2ccd1d38e9ee0c237b98c8aad14bcafc.ctex"]
+source_file="res://addons/venudie/dieback_icon.svg"
+dest_files=["res://.godot/imported/dieback_icon.svg-018f22da7347b6bdc3e23b7db0927dbf.ctex"]
 
 [params]
 

@@ -1,15 +1,15 @@
 @tool
 extends EditorPlugin
 
-const MainScreen := preload("res://addons/dieback/dieback_main_screen.gd")
-const ICON := "res://addons/dieback/dieback_icon.svg"
+const MainScreen := preload("res://addons/venudie/dieback_main_screen.gd")
+const ICON := "res://addons/venudie/dieback_icon.svg"
 const AUTOLOAD := "DiebackRuntime"
 
 var main_screen: Control
 
 
 func _enable_plugin() -> void:
-	add_autoload_singleton(AUTOLOAD, "res://addons/dieback/dieback_runtime.gd")
+	add_autoload_singleton(AUTOLOAD, "res://addons/venudie/dieback_runtime.gd")
 
 
 func _disable_plugin() -> void:

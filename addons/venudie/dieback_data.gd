@@ -1,5 +1,5 @@
 @tool
-@icon("res://addons/dieback/dieback_icon.svg")
+@icon("res://addons/venudie/dieback_icon.svg")
 class_name DiebackData
 extends Resource
 
