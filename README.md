@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="addons/dieback/dieback_icon.svg" alt="VenuDie logo" width="100" height="100" align="absmiddle">
+  <img src="addons/venudie/dieback_icon.svg" alt="VenuDie logo" width="100" height="100" align="absmiddle">
   VenuDie
 </h1>
 
